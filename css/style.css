@@ -3,9 +3,17 @@ body {
 }
 
 hr {
-width: 30%;
+    width: 30%;
 }
 
 .btn {
     color: orange;
+}
+
+.btn-link:hover {
+    color: black;
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: none;
 }
